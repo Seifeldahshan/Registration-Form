@@ -1,0 +1,48 @@
+/* homeStyle.css */
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Table styles */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #564a9e;
+}
+
+.table th {
+  background-color: #42376e;
+}
+
+/* Table links */
+.table a {
+  color: #453f9b;
+  text-decoration: none;
+}
+
+.table a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive table styles */
+@media (max-width: 600px) {
+  .table {
+    font-size: 14px;
+  }
+
+  .table th,
+  .table td {
+    padding: 6px;
+  }
+}
