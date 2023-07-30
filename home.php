@@ -9,6 +9,7 @@
 </head>
 <body>
 
+
 </body>
 </html>
 
@@ -55,8 +56,8 @@ foreach ($data as $key => $value) {
         <td> $line[6] </td>
         <td> $line[7] </td>
         <td> $line[8] </td>
-        <td><a href='editbtn.php?username=$line[2]' > Edit </a></td>
-        <td> <a href='remove.php?username=$line[2]'> Delete </a> </td>
+        <td><a href='edit.php?username=$line[2]' > Edit </a></td>
+        <td> <a href='delete.php?username=$line[2]'> Delete </a> </td>
 
 
     </tr>
